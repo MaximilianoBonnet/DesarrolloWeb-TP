@@ -1,0 +1,135 @@
+/* Reset de estilos */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos del header y nav */
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logo h2 {
+    font-size: 28px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+
+/* Estilos de las secciones */
+
+main {
+    padding: 50px;
+}
+
+section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.section1 {
+    background-color: #dcdcdc;
+    padding: 50px;
+    text-align: center;
+}
+
+.section2 {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.section3 {
+    background-color: #dcdcdc;
+    padding: 50px;
+    text-align: center;
+}
+
+#seccion4 {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+
+/* Estilos del footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    height: 200px;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
